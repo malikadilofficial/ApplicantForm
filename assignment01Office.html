@@ -16,23 +16,24 @@
         <div class="row">
             <div class="col">
                 <h3 class="py-3">Applicant Form</h3>
-
-                <label for="fName">First Name</label>
-                <input class="form-control" type="text" value="" id="fName">
-            
-                <label for="sName">Second Name</label>
-                <input class="form-control" type="text" value="" id="sName">
-            
-                <label for="fName">Age</label>
-                <input class="form-control" type="text" value="" id="age">
-            
-                <label for="sName">Email</label>
-                <input class="form-control" type="email" value="" id="email">
-            
-                <label for="fName">Phone No</label>
-                <input class="form-control" type="text" value="" id="phoneNo">
-            
-                <button class="btn btn-success my-2" onclick="getValues()">Add Record</button>
+                <form id="form" novalidate>
+                    <label for="fName">First Name</label>
+                    <input class="form-control" type="text" value="" id="fName">
+                
+                    <label for="sName">Second Name</label>
+                    <input class="form-control" type="text" value="" id="sName">
+                
+                    <label for="fName">Age</label>
+                    <input class="form-control" type="text" value="" id="age">
+                
+                    <label for="sName">Email</label>
+                    <input class="form-control" type="email" value="" id="email">
+                
+                    <label for="fName">Phone No</label>
+                    <input class="form-control" type="text" value="" id="phoneNo">
+                
+                    <button class="btn btnSubmit btn-success my-2" >Add Record</button>
+                </form>
             </div>
         </div>
 
@@ -40,7 +41,7 @@
         <div class="row">
             <div class="col">
                 
-                <table class="table table stripped">
+                <table class="table table-stripped">
                     <thead>
                         <tr>
                             <td>First Name</td>
